@@ -9,5 +9,8 @@ class CodeGenPlugin implements Plugin<Project> {
     void apply(Project project) {
         project.extensions.create("codegen", CodeGenPluginExtension.class)
         project.task("codegen", type: GenerateTask)
+
+
+        //test 2 - dev - commit
     }
 }
